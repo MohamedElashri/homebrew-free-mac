@@ -1,8 +1,11 @@
 class FreeMac < Formula
-  desc "A free-like memory monitor tool for macOS"
+  desc "A free-like tool for macOS"
   homepage "https://github.com/MohamedElashri/free-mac"
   url "https://github.com/MohamedElashri/free-mac/archive/refs/tags/v0.1.tar.gz"
   sha256 "cd31775fa630fef139fa67da37fb68d9b67914e1101b10346d5d4df695917beb"
+  license "MIT"
+
+  depends_on :macos
 
   def install
     system "make", "release"
