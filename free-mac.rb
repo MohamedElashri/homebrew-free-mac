@@ -2,7 +2,7 @@ class FreeMac < Formula
   desc "A free-like tool for macOS"
   homepage "https://github.com/MohamedElashri/free-mac"
   url "https://github.com/MohamedElashri/free-mac/archive/refs/tags/v0.4.tar.gz"
-  sha256 "1a2f63cc935c85810cd5ba9241152f5afd164568291cdb99fb846f0bd51bc138"
+  sha256 "5f4b68197988d6953d387db57a179dde215cf551076a8bc8c9a727a342bf815e"
   license "MIT"
 
   depends_on :macos
